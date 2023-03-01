@@ -1,0 +1,167 @@
+/* Estilos globales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    color: #3a0664;
+    text-decoration: none;
+}
+
+/* Estilos para la barra de navegación */
+
+nav {
+    background-color: #5d1268;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Estilos para la sección de perfil */
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.perfil h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.perfil h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilos para las secciones de contenido */
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el formulario de contacto */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+form input[type="submit"] {
+    background-color: #f10f0f;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e67e22;
+}
+
+/* Estilos para la sección de contacto */
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contacto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto ul li {
+    margin-bottom: 10px;
+}
+
+.contacto ul li a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilos adicionales */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 20px;
+	}
+}
